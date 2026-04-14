@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(sudo chmod:*)",
+      "Bash(npx create-next-app@latest . --typescript --tailwind --app --no-src-dir --no-import-alias --eslint)",
+      "Bash(.venv/bin/pip install:*)",
+      "Bash(.venv/bin/alembic revision:*)",
+      "Bash(DATABASE_URL=postgresql://adcoherence:adcoherence@localhost:5432/adcoherence .venv/bin/alembic revision:*)",
+      "Bash(docker compose:*)"
+    ]
+  }
+}

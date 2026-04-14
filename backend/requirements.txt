@@ -1,0 +1,35 @@
+# Web framework
+fastapi==0.115.5
+uvicorn[standard]==0.32.1
+
+# Database
+sqlalchemy==2.0.36
+asyncpg==0.30.0
+alembic==1.14.0
+
+# Auth / JWT
+python-jose[cryptography]==3.3.0
+httpx==0.28.0
+
+# Google Ads
+google-ads==25.1.0
+
+# Playwright
+playwright==1.49.0
+
+# Groq (Llama 3.3)
+groq==0.13.0
+
+# Celery + Redis
+celery==5.4.0
+redis==5.2.1
+
+# Encryption (refresh token storage)
+cryptography==43.0.3
+
+# Settings
+pydantic-settings==2.6.1
+pydantic==2.10.3
+
+# Utils
+python-multipart==0.0.17
